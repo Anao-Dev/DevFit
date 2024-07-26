@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Transforme seu corpo e sua mente na DevFitness!" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon" />
+    <script src="assets/js/script.js" defer></script>
+    <title>DevFitness</title>
+  </head>
+  <body>
+    <header class="cabecalho">
+      <nav>
+        <span class="logo">DevFitness</span>
+        <ul class="menu-bar">
+          <li><a href="#">Home</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+        <a href="https://github.com" class="git">GitHub</a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero animate-slide-up">
+        <div class="hero-content">
+          <h1>Transforme Seu Corpo e Sua Mente</h1>
+          <p>Na DevFitness, oferecemos as melhores ferramentas e treinadores para você alcançar seus objetivos fitness.</p>
+          <a href="#contato" class="btn">Comece Agora</a>
+        </div>
+        <div class="hero-image">
+          <div class="carousel">
+            <img src="assets/img/teste.avif" alt="Fitness Image 1" class="active" />
+            <img src="assets/img/carrosel2.jpeg" alt="Fitness Image 2" />
+            <img src="assets/img/carrosel3.jpeg" alt="Fitness Image 3" />
+            <img src="assets/img/carrosel4.jpeg" alt="Fitness Image 4">
+          </div>
+        </div>
+      </section>
+      <section class="sobre blur  animate-fade-in" id="sobre">
+        <h2><span class="destaque">Sobre</span> Nós</h2>
+        <p>DevFitness é uma academia dedicada a ajudar você a alcançar seu melhor. Com equipamentos de última geração e uma equipe de treinadores qualificados, estamos prontos para transformar sua vida.</p>
+      </section>
+      <section class="servicos blur animate-slide-up" id="servicos">
+        <h2><span class="destaque">Nossos</span> Serviços</h2>
+        <div class="servicos-container">
+          <div class="card">
+            <img src="assets/img/personal.png" alt="Personal Trainer" />
+            <h3>Personal Trainer</h3>
+            <p>Treinamento personalizado para atender suas necessidades específicas.</p>
+          </div>
+          <div class="card">
+            <img src="assets/img/treino.avif" alt="Aulas em Grupo" />
+            <h3>Aulas em Grupo</h3>
+            <p>Aulas dinâmicas e motivadoras para todos os níveis de condicionamento.</p>
+          </div>
+          <div class="card">
+            <img src="assets/img/nutri.jpg" alt="Nutrição" />
+            <h3>Nutrição</h3>
+            <p>Consultoria nutricional para complementar seu treino e otimizar resultados.</p>
+          </div>
+        </div>
+      </section>
+      <section class="contato blur animate-fade-in" id="contato">
+        <h2><span class="destaque">Contato</span></h2>
+        <p>Entre em contato conosco e comece sua jornada fitness hoje mesmo!</p>
+        <form>
+          <input type="text" placeholder="Nome" required />
+          <input type="email" placeholder="Email" required />
+          <textarea placeholder="Mensagem" required></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+    <footer id="footer">
+      <p>&copy; 2024 DevFitness. Todos os direitos reservados.</p>
+      <p>Feito com 💪 por DevFitness Team</p>
+    </footer>
+  </body>
+</html>
